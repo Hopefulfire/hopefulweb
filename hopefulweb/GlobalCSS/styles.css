@@ -1,9 +1,26 @@
 a{
     text-decoration: none;
+    color: #000000;
+}
+.NAVBAR{
+    background: #699dff;
+    border: #000000 double;
+    border-radius: 6px;
+    background-clip: border-box;
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
 .NAVBUT{
-    text-decoration: none;
-    color: #000000;
-    border: 1px #000000 solid;
-    border-radius: 5px;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #367cff;
+    text-align: center;
+}
+#NNAME{
+    margin-bottom: 5px;
+    margin-top: 3px;
 }
