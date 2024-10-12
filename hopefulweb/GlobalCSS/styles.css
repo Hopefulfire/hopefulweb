@@ -5,6 +5,21 @@ a{
 body{
     background-color: #367cff;
 }
+article.Mission{
+    width: 80%;
+}
+h1.Mission{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 1px;
+    margin-top: 4px;
+    border-bottom: #020427 solid 2px;
+}
+p.Mission{
+    font-family: cursive;
+    font-weight: 600;
+}
 .NAVBAR{
     height: 55px;
     background: #020427;
@@ -18,25 +33,33 @@ body{
 }
 .NAVBUT{
     color: #1547a5;
-    margin-right: 2px;
-    font-size: larger;
+    font-size: 100%;
     font-weight: 900;
-    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #020427;
     text-align: center;
-    padding-top: 13px;
-    width: 10%;
+    padding-top: .5%;
+    padding-right: 1%;
+    width: 100px;
     float: right;
-    height: 40px;
-    text-overflow: clip;
 }
-.test{
-    margin: 700px;
+#topA{
+    float: right;
+    border: #020427 solid;
+    border-radius: 10px;
+    height: 30%;
+    width: 30%;
 }
-#LAST{
-    margin: 0px;
+#topB{
+    float: right;
+    border: #020427 solid;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-right: -10%;
+    height: 15%;
+    width: 15%;
 }
+
 #NAV_LOG{
     float: left;
     height: 40px;
